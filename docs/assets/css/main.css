@@ -1,5 +1,5 @@
 /* Ellen Paul for State Rep — prototype styles
-   Brand: "Defending Connecticut Values" · bluegold theme */
+   Brand: "Defending Connecticut Values" · logo indigo (#282160) + gold theme */
 
 :root {
   /* ============================================================
@@ -8,13 +8,16 @@
      values in THIS block only; nothing below hard-codes a brand colour.
      ============================================================ */
 
-  /* Brand + accent (the primary levers for a re-theme) */
-  --color-brand:              #0f2f57;  /* primary: headings, primary buttons, dark sections */
-  --color-brand-hover:        #12365f;  /* primary button hover */
-  --color-brand-deep:         #0b2544;  /* deeper panels (Weir card / pill) */
-  --color-brand-deepest:      #0a2036;  /* footer */
-  --color-brand-line:         #21406b;  /* borders + tags on dark panels */
-  --color-link:               #1e5aa0;  /* text links */
+  /* Brand + accent (the primary levers for a re-theme)
+     Ink matches the campaign logo (#282160); large dark surfaces use a
+     darker, desaturated "midnight" so they read navy rather than purple. */
+  --color-brand:              #282160;  /* ink: headings, primary buttons, nav */
+  --color-brand-hover:        #2e276e;  /* primary button hover */
+  --color-brand-surface:      #1c2242;  /* large dark sections (hero top, choice) */
+  --color-brand-deep:         #141831;  /* deeper panels (hero bottom, Weir card) */
+  --color-brand-deepest:      #0f1226;  /* footer */
+  --color-brand-line:         #333d70;  /* borders + tags on dark panels */
+  --color-link:               #4346a0;  /* text links */
   --color-accent:             #c8a13a;  /* accent / highlight */
   --color-accent-strong:      #b08d2c;  /* accent hover + small accent text on light */
 
@@ -23,7 +26,7 @@
   --color-canvas-raised:      #fbf9f3;  /* subtle raised background (hero top) */
   --color-surface:            #ffffff;  /* cards, inputs */
   --color-border:             #e6dfce;  /* hairline borders */
-  --color-border-strong:      #cfd6df;  /* input borders */
+  --color-border-strong:      #cfcede;  /* input borders */
 
   /* Text on light surfaces */
   --color-text:               #1e2733;  /* body text */
@@ -33,19 +36,19 @@
 
   /* Text & detail on dark brand sections */
   --color-on-brand:           #ffffff;  /* white text/detail on brand or dark */
-  --color-on-dark:            #eef2f7;  /* body text on dark */
-  --color-on-dark-2:          #e6ecf3;  /* alt body text on dark */
-  --color-on-dark-heading:    #9fb6d4;  /* headings on dark panels */
-  --color-on-dark-body:       #d6e0ec;  /* list/body text on dark panels */
-  --color-on-dark-muted:      #cdd9e8;  /* muted text on dark */
-  --color-on-dark-subtle:     #9fb0c6;  /* subtle text on dark ("vs", captions) */
+  --color-on-dark:            #ecf0f7;  /* body text on dark */
+  --color-on-dark-2:          #e4e8f3;  /* alt body text on dark */
+  --color-on-dark-heading:    #9da8d4;  /* headings on dark panels */
+  --color-on-dark-body:       #d4d9ec;  /* list/body text on dark panels */
+  --color-on-dark-muted:      #cad0e8;  /* muted text on dark */
+  --color-on-dark-subtle:     #99a4c6;  /* subtle text on dark ("vs", captions) */
   --color-border-on-dark:     rgba(255,255,255,.6);  /* outlines on dark (ghost button) */
-  --color-control-dark:       #37567c;  /* controls on dark (dots, borders) */
-  --color-control-dark-hover: #4d6f98;
+  --color-control-dark:       #384682;  /* controls on dark (dots, borders) */
+  --color-control-dark-hover: #4e60a0;
 
   /* Footer */
-  --color-footer-text:        #aeb9c7;
-  --color-footer-link:        #d7e0ea;
+  --color-footer-text:        #a8b0c7;
+  --color-footer-link:        #d4daea;
 
   /* Feedback */
   --color-success-bg:         #eef6ec;
@@ -53,11 +56,11 @@
   --color-success-text:       #1c5c2a;
 
   /* Brand-tinted overlays & shadows (update these too if the brand hue changes) */
-  --color-scrim:              rgba(10,32,54,.6);    /* modal / overlay backdrop */
-  --color-pill-scrim:         rgba(11,37,68,.72);   /* sticky dots pill on dark */
-  --color-band-scrim-top:     rgba(15,47,87,.82);   /* photo band overlay (top) */
-  --color-band-scrim-bottom:  rgba(15,47,87,.9);    /* photo band overlay (bottom) */
-  --shadow:                   0 6px 24px rgba(15,47,87,.08);
+  --color-scrim:              rgba(15,18,38,.6);    /* modal / overlay backdrop */
+  --color-pill-scrim:         rgba(20,24,49,.72);   /* sticky dots pill on dark */
+  --color-band-scrim-top:     rgba(28,34,66,.82);   /* photo band overlay (top) */
+  --color-band-scrim-bottom:  rgba(28,34,66,.9);    /* photo band overlay (bottom) */
+  --shadow:                   0 6px 24px rgba(20,24,49,.08);
   --shadow-accent:            0 4px 14px rgba(200,161,58,.35);
   --shadow-modal:             0 20px 60px rgba(0,0,0,.4);
 
@@ -84,6 +87,14 @@ h1, h2, h3 { font-family: var(--serif); line-height: 1.15; color: var(--color-br
 .eyebrow { font-family: var(--sans); text-transform: uppercase; letter-spacing: .14em;
   font-size: 1.12rem; font-weight: 700; color: var(--color-accent-strong); margin: 0 0 .6rem; }
 
+/* hover-reveal deep links on card headers */
+.hlink { margin-left: .3em; font-size: .85em; font-weight: 400; text-decoration: none;
+  color: var(--color-accent-strong); opacity: 0; transition: opacity .15s ease; }
+h3:hover .hlink, .hlink:hover, .hlink:focus-visible { opacity: 1; }
+@media (hover: none) {
+  .hlink { opacity: .45; }  /* no hover to reveal on touch — keep it faintly visible */
+}
+
 /* buttons */
 .btn { display: inline-block; font-weight: 700; font-family: var(--sans);
   padding: .72em 1.5em; border-radius: 999px; text-decoration: none; font-size: .98rem;
@@ -100,9 +111,8 @@ h1, h2, h3 { font-family: var(--serif); line-height: 1.15; color: var(--color-br
 .nav { position: sticky; top: 0; z-index: 50; background: var(--color-canvas);
   border-top: 4px solid var(--color-brand); border-bottom: 1px solid var(--color-accent); }
 .nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 68px; }
-.brand { font-family: var(--serif); font-weight: 700; color: var(--color-brand); text-decoration: none; line-height: 1; }
-.brand b { font-size: 1.7rem; display: block; letter-spacing: -.01em; }
-.brand span { font-size: .7rem; letter-spacing: .16em; text-transform: uppercase; color: var(--color-accent-strong); font-family: var(--sans); font-weight: 700; }
+.brand { display: block; line-height: 1; }
+.brand img { height: 44px; width: auto; }
 .nav-links { display: flex; align-items: center; gap: 1.4rem; list-style: none; margin: 0; padding: 0; }
 .nav-links a { color: var(--color-text); text-decoration: none; font-weight: 600; font-size: .93rem; }
 .nav-links a:hover { color: var(--color-link); }
@@ -110,7 +120,7 @@ h1, h2, h3 { font-family: var(--serif); line-height: 1.15; color: var(--color-br
 .nav-toggle span { display: block; width: 24px; height: 2px; background: var(--color-brand); margin: 5px 0; transition: .2s; }
 
 /* hero */
-.hero { background: linear-gradient(165deg, var(--color-brand), var(--color-brand-deep)); overflow: hidden; }
+.hero { background: linear-gradient(165deg, var(--color-brand-surface), var(--color-brand-deep)); overflow: hidden; }
 .hero .wrap { display: grid; grid-template-columns: 1.05fr .95fr; gap: clamp(1.5rem, 4vw, 3.5rem);
   align-items: center; padding-top: clamp(2.5rem, 6vw, 4.5rem); padding-bottom: clamp(2.5rem, 6vw, 4.5rem); }
 .hero h1 { font-size: clamp(2.4rem, 5.5vw, 3.9rem); margin: .2rem 0 .2rem; letter-spacing: -.01em; }
@@ -147,7 +157,7 @@ h1, h2, h3 { font-family: var(--serif); line-height: 1.15; color: var(--color-br
 .issue p:last-child { margin-bottom: 0; }
 
 /* the choice */
-.choice { background: var(--color-brand); color: var(--color-on-dark); }
+.choice { background: var(--color-brand-surface); color: var(--color-on-dark); }
 .choice h2 { color: var(--color-on-brand); }
 .hero .eyebrow, .choice .eyebrow, .cta-band .eyebrow { color: var(--color-accent); }
 .choice-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem;
@@ -221,6 +231,7 @@ h1, h2, h3 { font-family: var(--serif); line-height: 1.15; color: var(--color-br
 .footer .wrap { display: flex; flex-wrap: wrap; gap: 1rem 2rem; justify-content: space-between; align-items: center; }
 .footer a { color: var(--color-footer-link); }
 .footer .disclaimer { font-style: italic; }
+.footer-logo { height: 40px; width: auto; }
 
 /* prototype intro overlay */
 .overlay { position: fixed; inset: 0; z-index: 100; display: flex; align-items: center; justify-content: center;

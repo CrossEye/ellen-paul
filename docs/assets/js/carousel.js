@@ -25,7 +25,10 @@
       d.classList.toggle('active', di === index)
       d.setAttribute('aria-selected', di === index ? 'true' : 'false')
     })
-    slides.forEach((s, si) => s.setAttribute('aria-hidden', si === index ? 'false' : 'true'))
+    slides.forEach((s, si) => {
+      s.setAttribute('aria-hidden', si === index ? 'false' : 'true')
+      s.toggleAttribute('inert', si !== index)
+    })
   }
 
   const stop = () => {
@@ -89,7 +92,19 @@
     else if (e.key === 'ArrowRight') goTo(index + 1)
   })
 
-  go(0)
+  // Deep links: #vs-* shows that slide and suspends autoplay so it stays put.
+  const jumpToHash = () => {
+    const i = slides.findIndex(s => '#' + s.id === location.hash)
+    if (i < 0) return false
+    userPaused = true
+    stop()
+    go(i)
+    setLabel()
+    return true
+  }
+  window.addEventListener('hashchange', jumpToHash)
+
+  jumpToHash() || go(0)
   setLabel()
   play()
 })()
