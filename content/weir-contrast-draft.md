@@ -1,7 +1,7 @@
 # Ellen vs. Weir: a Contrast Menu
 
 > ### Scott's Suggestion
-> Ellen, here's a starting point for the compare-and-contrast part of the site. I've written the *Weir* side of each topic and left yours blank, so all you'd need to do is pick the ones you want to run on and write your half. Take what's useful, ignore the rest.
+> Ellen, here's a starting point for the compare-and-contrast part of the site. I've written the *Weir* side of each topic, and this round I've also drafted *your* side for each one, borrowing your own language from the issue statements wherever I could. I figured editing a draft beats staring at a blank page. Every word is yours to rewrite, cut, or throw out. Take what's useful, ignore the rest.
 
 **How it's organized:** For each topic, the Weir side is drawn from my voting-record report (1,293 roll calls, 2023–May 2026) and cited to specific bills. Section 1 lines up with issues you've already written about; Section 2 is a menu of additional strong contrasts to pick from.
 
@@ -23,7 +23,11 @@ Confidence flags: **[solid]** = specific bills in hand; **[thinner]** = the patt
 
 **Why it works:** These are supply-side, deregulatory housing reforms, exactly what his "free markets, limit government intrusion" platform should predict a *yes* on. He voted with municipalities and existing landowners instead. His Apartment Association board seat explains the pattern his own platform doesn't.
 
-**Your side →** *Your vision for making housing attainable for teachers, nurses, and young families, you've already drafted the Affordable Housing statement; this just adds the contrast.*
+**Your side →** *Draft below, built from your Affordable Housing statement with a contrast turn at the end. Edit freely.*
+
+> We need affordable homes for our middle class: our teachers, firefighters, librarians, nurses, and young families just starting out. The answer is practical, not complicated. Make it easier and faster to build smaller, more affordable homes without sacrificing safety or local character. Other New England states are already cutting red tape with ideas like pre-approved home designs, and Connecticut should be doing the same.
+>
+> But practical solutions only work if your representative votes for them. Over the past four years, Hartford has taken up bill after bill to make homes easier to build, and our representative voted no every time. When those bills come to the floor, I'll vote yes.
 
 ---
 
@@ -36,7 +40,11 @@ Confidence flags: **[solid]** = specific bills in hand; **[thinner]** = the patt
 
 **Why it works:** Ties directly to your "Keeping Eastern Connecticut Green." Once open space and clean water are gone, they're gone, and he's opposed essentially every measure to protect them.
 
-**Your side →** *Your "Keeping Eastern CT Green" statement is written; just add the contrast line.*
+**Your side →** *Draft below, built from your "Keeping Eastern CT Green" statement. Edit freely.*
+
+> Some things can be rebuilt. Our farms, forests, lakes, and open spaces are not among them. Once they're gone, they're gone forever. Eastern Connecticut's green places support local agriculture, protect wildlife and clean water, and preserve the character that makes our towns unique.
+>
+> I believe we can welcome new homes, support local businesses, and grow our economy without losing the landscapes that define our region. When measures to protect clean water, open space, and clean air come before the legislature, I'll vote for them. Our current representative has not, not once in four years. That's a real difference, and it's one our grandchildren will live with.
 
 ---
 
@@ -46,7 +54,11 @@ Confidence flags: **[solid]** = specific bills in hand; **[thinner]** = the patt
 
 **Gap I'd flag:** My report gives the *pattern* but doesn't name the specific education/ECS-funding bills. If you pick this one, a natural fit with your property-tax-relief message, let me pull the specific votes (Education Cost Sharing formula, school-funding bills) so the contrast is concrete rather than a bare percentage. Easy to do; just not turnkey yet.
 
-**Your side →** *Your Education & Property Tax Relief statement is already drafted.*
+**Your side →** *Draft below, built from your Education & Property Tax Relief statement. Edit freely.*
+
+> We shouldn't force homeowners to shoulder costs that should be shared by the entire state. The foundation of Connecticut's education funding formula hasn't been updated since 2013, and local property taxpayers have been making up the difference ever since: higher taxes, cut programs, or both.
+>
+> Every child deserves a quality education regardless of ZIP code, and every community deserves a funding system that is fair, predictable, and sustainable. I'll work to modernize the formula so it reflects today's costs, strengthens our public schools, and delivers real property tax relief for local families. That's what I'll be in Hartford to fight for, not to defend a status quo that keeps shifting the burden onto our towns.
 
 ---
 
@@ -56,7 +68,11 @@ Confidence flags: **[solid]** = specific bills in hand; **[thinner]** = the patt
 
 **Gap I'd flag:** Your energy statement is about *utility bills and ratepayer accountability*, holding monopoly utilities accountable. My report documents his votes against *clean-energy supply*, which is adjacent but not the same argument. Honest fit is moderate. If you pick it, let me check the other reports for any ratepayer/utility-oversight votes to sharpen it.
 
-**Your side →** *Your Energy Costs statement is drafted.*
+**Your side →** *Draft below, built from your Energy Costs statement. The last line bridges the ratepayer message to his supply votes, which is where the record actually is. Edit freely.*
+
+> Connecticut families already pay some of the highest electric bills in the country, while utility companies post massive profits and keep asking working families for more. We need an energy policy that puts ratepayers first: stronger oversight, real accountability for the utilities, and long-term investment in a diverse and reliable energy supply that can stabilize costs.
+>
+> That last part matters. More homegrown energy means more supply, more competition, and less exposure to price spikes. You can't lower electric bills while voting against every effort to produce more energy here in Connecticut. I'll vote for accountability and for supply, because working families, seniors, and small businesses need both.
 
 ---
 
@@ -68,7 +84,11 @@ Confidence flags: **[solid]** = specific bills in hand; **[thinner]** = the patt
 
 **Why I'd push this one:** Your whole biography is coalition-building and bipartisan, consensus-driven legislation. This isn't a single issue, it's a frame that contrasts your *approach* with a 96%-party-line incumbent. It may be your most natural contrast, because it's about temperament and independence, not left-vs-right.
 
-**Your side →** *Your record of working across the aisle, the library legislation, working with the General Assembly, as the proof point.*
+**Your side →** *Draft below, built from your bio and "Why I'm Running." This one is about approach, not issues, so it leans on your coalition-building record. Edit freely.*
+
+> I've spent my career bringing people together to solve problems: as a librarian, as a nonprofit leader, and as an advocate who has helped pass bipartisan legislation through the General Assembly. The work I'm proudest of passed because people who didn't agree on everything were willing to listen, build consensus, and stay focused on the problem instead of the politics.
+>
+> That's how I'll represent the 55th District. Not as a reliable vote for one party, but as a voice for five towns. I'm not going to Hartford to score points. When a good idea comes from the other side of the aisle, I'll say so, and I'll vote for it. And when my own party gets something wrong, I'll say that too. You deserve a representative who answers to you, not to a caucus.
 
 ---
 
@@ -82,7 +102,11 @@ Confidence flags: **[solid]** = specific bills in hand; **[thinner]** = the patt
 
 **Why it works:** The person the legislature designates as a top voice on labor has one of the most anti-worker voting records on it.
 
-**Your side →** *Where you stand on workers, paid leave, fair scheduling.*
+**Your side →** *Draft below. No existing statement to draw from, so this is straight generic-progressive in your register: values first, kitchen-table stakes, no jargon. Edit freely.*
+
+> I believe work should pay enough to live on, and that no one should have to choose between a paycheck and caring for a sick child or an aging parent. Paid sick days, family and medical leave, and basic safety and fairness on the job are not radical ideas. They're how we keep the people who keep our communities running: the aides in our nursing homes, the workers in our warehouses, the folks behind every counter in town.
+>
+> I've spent my career in libraries and nonprofits, places that run on people who work hard for modest pay because they believe in what they do. Those people deserve a state that respects their work. In Hartford, I'll stand with the workers of eastern Connecticut, because an economy only works when it works for the people doing the work.
 
 ---
 
@@ -96,7 +120,11 @@ Confidence flags: **[solid]** = specific bills in hand; **[thinner]** = the patt
 
 **Why it works:** These are the votes hardest to explain away, there's no "small government" story for them. Use sparingly and factually; the votes speak for themselves.
 
-**Your side →** *Optional, could fold into a broader "common sense / good government" theme rather than a standalone issue.*
+**Your side →** *Draft below, framed as "common sense / good government" rather than a standalone issue, so it can stand alone or fold into the independent-voice theme. Deliberately short; the votes do the talking. Edit freely.*
+
+> Some votes aren't about party or ideology at all. Protecting children. Keeping seniors safe. Making sure the public can see how its institutions are run. Those aren't left-or-right questions, they're common sense, and they should be the easiest votes a legislator ever takes.
+>
+> When bills like these reach my desk, I won't be looking for a political angle. I'll be asking one question: does this make life better and safer for the people of the 55th District? If the answer is yes, so is my vote.
 
 ---
 
@@ -106,7 +134,7 @@ Confidence flags: **[solid]** = specific bills in hand; **[thinner]** = the patt
 
 **Gap I'd flag:** Kitchen-table framing, but my report has fewer named bills here. I'd want to pull more if you want it as a headline rather than a supporting point.
 
-**Your side →** *Your take on everyday affordability / protecting consumers.*
+**Your side →** *No draft for this one on purpose, it's the thinnest of the bunch on my side. If it appeals to you anyway, say the word and I'll pull more votes and write a draft.*
 
 ---
 
@@ -119,7 +147,11 @@ Confidence flags: **[solid]** = specific bills in hand; **[thinner]** = the patt
 
 **Why it works:** He voted against implementing what the voters themselves had already approved. Fairly safe ground, though it's more process/democracy than kitchen-table, so it's your call whether it fits your message.
 
-**Your side →** *Your position on voting access, if you want it.*
+**Your side →** *Draft below. Framed around respecting the voters' own decision, which keeps it concrete rather than abstract "democracy" talk. Edit freely.*
+
+> When the voters of Connecticut amended our constitution to allow early voting, they gave the legislature a job: carry it out. That's not a partisan question. It's the basic promise of self-government, that when the people decide, their representatives follow through.
+>
+> I trust the voters of this district. I'll work to make voting secure, accessible, and convenient for every eligible voter, whether that means early voting, absentee ballots, or simply respecting the decisions voters have already made at the ballot box. Democracy works best when more of our neighbors participate, and I will never vote to make participating harder.
 
 ---
 
