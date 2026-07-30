@@ -185,7 +185,7 @@ h3:hover .hlink, .hlink:hover, .hlink:focus-visible { opacity: 1; }
 .placeholder { font-style: italic; color: var(--color-text-muted); border-left: 3px dashed var(--color-accent); padding-left: .9rem; }
 .choice .foot { margin-top: 1.6rem; font-size: .9rem; color: var(--color-on-dark-subtle); }
 
-/* standalone contrasts page (contrasts.html): stacked side-by-side compares */
+/* standalone contrasts page (contrasts/): stacked side-by-side compares */
 .compare-list { display: grid; gap: 2.8rem; margin-top: 2.4rem; }
 .compare-topic .topic-head { font-family: var(--sans); text-transform: uppercase; letter-spacing: .12em;
   font-size: 1.05rem; color: var(--color-accent); margin: 0 0 .9rem; }
