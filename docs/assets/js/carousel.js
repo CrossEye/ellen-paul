@@ -54,7 +54,9 @@
     d.className = 'dot'
     d.type = 'button'
     d.setAttribute('role', 'tab')
-    d.setAttribute('aria-label', s.getAttribute('aria-label') || `Slide ${i + 1}`)
+    const label = s.dataset.title || s.getAttribute('aria-label') || `Slide ${i + 1}`
+    d.setAttribute('aria-label', label)
+    d.title = label
     d.addEventListener('click', () => goTo(i))
     dotsWrap.appendChild(d)
     return d
@@ -71,7 +73,8 @@
   // pause on hover, keyboard focus, and press; resume unless the user paused it
   root.addEventListener('mouseenter', () => (hovered = true, stop()))
   root.addEventListener('mouseleave', () => (hovered = false, resume()))
-  root.addEventListener('focusin', () => (focused = true, stop()))
+  // latch the focus-pause only for keyboard focus; mouse clicks are covered by hover
+  root.addEventListener('focusin', e => (focused = e.target.matches(':focus-visible'), stop()))
   root.addEventListener('focusout', e => (focused = root.contains(e.relatedTarget), focused || resume()))
   root.addEventListener('pointerdown', stop)
   document.addEventListener('visibilitychange', () => document.hidden ? stop() : resume())
