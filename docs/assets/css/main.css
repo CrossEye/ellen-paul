@@ -90,7 +90,7 @@ h1, h2, h3 { font-family: var(--serif); line-height: 1.15; color: var(--color-br
 /* hover-reveal deep links on card headers */
 .hlink { margin-left: .3em; font-size: .85em; font-weight: 400; text-decoration: none;
   color: var(--color-accent-strong); opacity: 0; transition: opacity .15s ease; }
-h3:hover .hlink, .hlink:hover, .hlink:focus-visible { opacity: 1; }
+h2:hover .hlink, h3:hover .hlink, .hlink:hover, .hlink:focus-visible { opacity: 1; }
 @media (hover: none) {
   .hlink { opacity: .45; }  /* no hover to reveal on touch — keep it faintly visible */
 }
@@ -190,6 +190,7 @@ h3:hover .hlink, .hlink:hover, .hlink:focus-visible { opacity: 1; }
 .compare-topic .topic-head { font-family: var(--sans); text-transform: uppercase; letter-spacing: .12em;
   font-size: 1.05rem; color: var(--color-accent); margin: 0 0 .9rem; }
 .compare-page .intro { margin-bottom: 0; }
+.choice-cta { text-align: center; margin: 1.8rem 0 0; }
 
 /* choice carousel */
 .carousel { position: relative; margin-top: 2rem; }
