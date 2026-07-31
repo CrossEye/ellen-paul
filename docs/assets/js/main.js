@@ -65,5 +65,5 @@
 
   initNav()
   initTabs()
-  initOverlay()
+  // initOverlay()  // intro overlay off for launch; uncomment to bring it back
 })()
