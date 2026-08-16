@@ -16,7 +16,7 @@ People:
 - **Ellen Paul** — the candidate; has signed off on all current content.
 - **Trip** — handles the campaign's Wix account and domain DNS; more technical
   than he first appears. Currently blocked: Wix was down as of 2026-07-31.
-- **Jay Kamins** — friendly observer, cc'd on emails.
+- **Jay Kamins** — friendly observer, web professional, cc'd on emails.
 
 ## Layout
 
@@ -51,8 +51,10 @@ People:
   advocacy, coalition-building, working with the General Assembly.
 - Contrast framing is **his record vs. her priorities** — factual, bill-cited,
   no name-calling. Weir-side claims must trace to roll-call data (see Sources).
-- Prose style: **no em-dashes** (commas, periods, parens instead).
-  JS style: no semicolons, const-default, arrow functions, expression-oriented.
+- Prose style: **no em-dashes** (commas, periods, parens instead). One
+  deliberate exception: the `&mdash;` in the Accountable Government card, which
+  is Ellen's own wording kept verbatim. Don't "fix" it.
+- JS style: no semicolons, const-default, arrow functions, expression-oriented.
 - Ellen-voice copy: practical, values-forward, first person, "We need… / I'll
   work to… / I believe…", never fearmongering.
 
@@ -105,7 +107,11 @@ People:
   SB-1108 (2023), HB-7213 (2025 — a majority of his own caucus voted yes),
   SB-7 (2025). Gun votes remain deliberately unused.
 - "Strong Families" issue card came from Ellen's sixth content section
-  (child care, schools, reproductive freedom), lightly condensed.
+  (child care, schools, reproductive freedom), lightly condensed. **Replaced
+  2026-08-16** at Ellen's request by **Accountable Government** (term limits,
+  no individual-stock trading in office, required public town halls), her
+  text. Strong Families is preserved commented out in both index pages in
+  case she wants it back or wants both.
 
 ## Sources for Weir-side claims (NOT in this repo)
 
