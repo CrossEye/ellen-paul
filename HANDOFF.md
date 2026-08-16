@@ -14,8 +14,7 @@ https://crosseye.github.io/ellen-paul/.
 People:
 - **Scott Sauyet** — builds and maintains this repo.
 - **Ellen Paul** — the candidate; has signed off on all current content.
-- **Trip** — handles the campaign's Wix account and domain DNS; more technical
-  than he first appears. Currently blocked: Wix was down as of 2026-07-31.
+- **Trip Holtgrewe** — campaign professional; handles the campaign's Wix account and domain DNS; more technical than he first appears.
 - **Jay Kamins** — friendly observer, web professional, cc'd on emails.
 
 ## Layout
