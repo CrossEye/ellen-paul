@@ -24,15 +24,16 @@ People:
 - `docs/multi/` (two-page variant with a separate contrasts page) was
   **removed 2026-08-21**; keeping it in sync wasn't worth it. Revive from git
   history (commit f35a52b or earlier) if ever wanted.
-- `docs/Option1/`, `docs/Option2/` — **temporary review pages for Ellen**
+- `docs/Option1/`, `docs/Option2/`, `docs/Option3/` — **temporary review pages for Ellen**
   (2026-08-21), `noindex`ed, reachable at ellenforstaterep.com/Option1 and
-  /Option2. Both restore Strong Families as a seventh issue card. Option1 makes
+  /Option2 and /Option3. All restore Strong Families as a seventh issue card. Option1 makes
   the odd seventh card (Accountable Government) span the final row; Option2
   adds a photo card (`assets/img/issues.jpg`, cropped from
-  `photos/ellen-picks/PAUL_ELLEN_2026_0027.jpg`) in the eighth slot. Each is a
+  `photos/ellen-picks/PAUL_ELLEN_2026_0027.jpg`) in the eighth slot, full-bleed;
+  Option3 is the same photo framed inside the card shell. Each is a
   copy of `docs/index.html` with asset paths re-rooted and a small inline
   `<style>` block. Once Ellen picks one, fold it into `docs/index.html` and
-  delete both folders.
+  delete all three folders.
 - `docs/001/` … `docs/008/` — frozen early prototype snapshots. Never edit.
 - `docs/assets/` — shared CSS (`css/main.css`), JS (`js/carousel.js`,
   `js/forms.js`, `js/main.js`), images incl. logo SVGs and `favicon.svg`.
