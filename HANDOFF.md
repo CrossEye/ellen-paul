@@ -1,7 +1,7 @@
 # HANDOFF — Ellen Paul for State Rep (CT 55th) campaign site
 
 Context document for anyone (human or Claude session) picking this up cold.
-Last updated: 2026-08-01, on the eve of DNS cutover.
+Last updated: 2026-08-21.
 
 ## What this is
 
@@ -21,12 +21,18 @@ People:
 
 - `docs/index.html` — **the canonical site**: long-scroll single page (Ellen's
   stated preference). Contains the ten-slide Ellen-vs-Weir carousel.
-- `docs/multi/index.html` + `docs/multi/contrasts/index.html` — a two-page
-  variant: same page but the carousel is replaced by a short blurb linking to
-  an issue-by-issue contrasts page. **Kept in step with the main page** but
-  deliberately unlinked and `noindex`ed ("obscured") unless it's ever adopted.
-  Any content change to the main page's issues or contrasts should be mirrored
-  here.
+- `docs/multi/` (two-page variant with a separate contrasts page) was
+  **removed 2026-08-21**; keeping it in sync wasn't worth it. Revive from git
+  history (commit f35a52b or earlier) if ever wanted.
+- `docs/Option1/`, `docs/Option2/` — **temporary review pages for Ellen**
+  (2026-08-21), `noindex`ed, reachable at ellenforstaterep.com/Option1 and
+  /Option2. Both restore Strong Families as a seventh issue card. Option1 makes
+  the odd seventh card (Accountable Government) span the final row; Option2
+  adds a photo card (`assets/img/issues.jpg`, cropped from
+  `photos/ellen-picks/PAUL_ELLEN_2026_0027.jpg`) in the eighth slot. Each is a
+  copy of `docs/index.html` with asset paths re-rooted and a small inline
+  `<style>` block. Once Ellen picks one, fold it into `docs/index.html` and
+  delete both folders.
 - `docs/001/` … `docs/008/` — frozen early prototype snapshots. Never edit.
 - `docs/assets/` — shared CSS (`css/main.css`), JS (`js/carousel.js`,
   `js/forms.js`, `js/main.js`), images incl. logo SVGs and `favicon.svg`.
@@ -109,8 +115,9 @@ People:
   (child care, schools, reproductive freedom), lightly condensed. **Replaced
   2026-08-16** at Ellen's request by **Accountable Government** (term limits,
   no individual-stock trading in office, required public town halls), her
-  text. Strong Families is preserved commented out in both index pages in
-  case she wants it back or wants both.
+  text. Strong Families is preserved commented out in `docs/index.html`. On
+  2026-08-21 Ellen said she only cut it for the odd-card-count look and would
+  keep it given a layout fix; see `docs/Option1/` and `docs/Option2/`.
 
 ## Sources for Weir-side claims (NOT in this repo)
 
