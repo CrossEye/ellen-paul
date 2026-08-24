@@ -1,7 +1,7 @@
 # HANDOFF — Ellen Paul for State Rep (CT 55th) campaign site
 
 Context document for anyone (human or Claude session) picking this up cold.
-Last updated: 2026-08-21.
+Last updated: 2026-08-24.
 
 ## What this is
 
@@ -24,16 +24,6 @@ People:
 - `docs/multi/` (two-page variant with a separate contrasts page) was
   **removed 2026-08-21**; keeping it in sync wasn't worth it. Revive from git
   history (commit f35a52b or earlier) if ever wanted.
-- `docs/Option1/`, `docs/Option2/`, `docs/Option3/` — **temporary review pages for Ellen**
-  (2026-08-21), `noindex`ed, reachable at ellenforstaterep.com/Option1 and
-  /Option2 and /Option3. All restore Strong Families as a seventh issue card. Option1 makes
-  the odd seventh card (Accountable Government) span the final row; Option2
-  adds a photo card (`assets/img/issues.jpg`, cropped from
-  `photos/ellen-picks/PAUL_ELLEN_2026_0027.jpg`) in the eighth slot, full-bleed;
-  Option3 is the same photo framed inside the card shell. Each is a
-  copy of `docs/index.html` with asset paths re-rooted and a small inline
-  `<style>` block. Once Ellen picks one, fold it into `docs/index.html` and
-  delete all three folders.
 - `docs/001/` … `docs/008/` — frozen early prototype snapshots. Never edit.
 - `docs/assets/` — shared CSS (`css/main.css`), JS (`js/carousel.js`,
   `js/forms.js`, `js/main.js`), images incl. logo SVGs and `favicon.svg`.
@@ -113,12 +103,14 @@ People:
   SB-1108 (2023), HB-7213 (2025 — a majority of his own caucus voted yes),
   SB-7 (2025). Gun votes remain deliberately unused.
 - "Strong Families" issue card came from Ellen's sixth content section
-  (child care, schools, reproductive freedom), lightly condensed. **Replaced
-  2026-08-16** at Ellen's request by **Accountable Government** (term limits,
+  (child care, schools, reproductive freedom), lightly condensed. Replaced
+  2026-08-16 at Ellen's request by **Accountable Government** (term limits,
   no individual-stock trading in office, required public town halls), her
-  text. Strong Families is preserved commented out in `docs/index.html`. On
-  2026-08-21 Ellen said she only cut it for the odd-card-count look and would
-  keep it given a layout fix; see `docs/Option1/` and `docs/Option2/`.
+  text. **Restored 2026-08-24**: Ellen chose to run both (seven cards), with
+  the odd eighth slot filled by a framed photo card (`assets/img/issues.jpg`,
+  cropped from `photos/ellen-picks/PAUL_ELLEN_2026_0027.jpg`). The
+  Option1/2/3 review pages that presented the layout choices are deleted;
+  revive from git (commit 7e15f25) if similar pages are ever needed.
 
 ## Sources for Weir-side claims (NOT in this repo)
 
