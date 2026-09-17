@@ -1,7 +1,7 @@
 # HANDOFF — Ellen Paul for State Rep (CT 55th) campaign site
 
 Context document for anyone (human or Claude session) picking this up cold.
-Last updated: 2026-08-24.
+Last updated: 2026-09-16.
 
 ## What this is
 
@@ -20,7 +20,7 @@ People:
 ## Layout
 
 - `docs/index.html` — **the canonical site**: long-scroll single page (Ellen's
-  stated preference). Contains the ten-slide Ellen-vs-Weir carousel.
+  stated preference). Contains the eleven-slide Ellen-vs-Weir carousel.
 - `docs/multi/` (two-page variant with a separate contrasts page) was
   **removed 2026-08-21**; keeping it in sync wasn't worth it. Revive from git
   history (commit f35a52b or earlier) if ever wanted.
@@ -82,7 +82,7 @@ People:
 
 ## Content decisions
 
-- Contrast order: Education, Property Taxes, Women's Health, Housing,
+- Contrast order: Education, Property Taxes, Seniors, Women's Health, Housing,
   Environment, Energy, Workers, Independence, Common Sense, Voting.
   Ellen's one ordering constraint: **housing must not be first**.
 - **Housing** slide (Trip initially wanted it dropped; this version won him
@@ -111,13 +111,29 @@ People:
   cropped from `photos/ellen-picks/PAUL_ELLEN_2026_0027.jpg`). The
   Option1/2/3 review pages that presented the layout choices are deleted;
   revive from git (commit 7e15f25) if similar pages are ever needed.
+- **Supporting Connecticut Seniors** card added 2026-09-16 (Ellen's text,
+  verbatim), making eight cards. The photo card is **commented out, not
+  deleted**, in `docs/index.html`; uncomment it if the card count goes odd.
+- **Seniors** slide added 2026-09-16 after Property Taxes. Weir side: SB-1
+  (2026, roll call 204, R 27-21, Weir no) and SB-395 (2024, roll call 126).
+  Ellen's side was drafted by Scott from her statement, pending her sign-off.
+  Research, including claims NOT to make (Social Security, utilities,
+  "anti-senior", "cuts your property taxes"):
+  `55th/.meta/research/weir-seniors-appendix-2026-09-15.md`.
+- **Workers** scorecard line is "two of the 14" per
+  `55th/.meta/research/weir-labor-appendix-rev3-2026-08-23.md`, naming both
+  crossovers (SB-913, HB-5003) to pre-empt the rebuttal.
 
 ## Sources for Weir-side claims (NOT in this repo)
 
 All vote claims come from Scott's local reports — verify there before
 changing any factual claim:
 - `c:\Users\scott\Dev\Andover\55th\reports\weir-analysis\` — the voting-record
-  analysis (1,293 roll calls, 2023–May 2026).
+  analysis (2023–May 2026).
+- `c:\Users\scott\Dev\Andover\WeirVotes\data\parsed\all-votes.json` — the
+  corrected roll-call dataset (1,351 roll calls). Re-parsed in August 2026 to
+  fix Rep. Joshua Hall (D) being counted as a Republican, so caucus splits
+  taken from older reports can be off by one. Check splits here.
 - `c:\Users\scott\Dev\Andover\andoverct.info\reports\55th\` — includes
   `weir-votes/weir-votes.md` (every roll call with Weir's vote and both
   caucus splits) and `weir-businesses/` (the SB-274 story, CTAA board seat,
