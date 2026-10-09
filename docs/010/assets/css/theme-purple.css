@@ -1,0 +1,58 @@
+/* DEMO THEME — purple + yellow. Proof that a re-theme is just the token block.
+   Loaded after main.css so these role tokens win. Delete the <link> in
+   index.html (or this file) to revert to the bluegold theme. */
+
+:root {
+  /* Brand + accent */
+  --color-brand:              #3d2373;
+  --color-brand-hover:        #4a2d85;
+  --color-brand-deep:         #2a1550;
+  --color-brand-deepest:      #1e0f3a;
+  --color-brand-line:         #5a3f8f;
+  --color-link:               #6d3fb0;
+  --color-accent:             #eec53a;
+  --color-accent-strong:      #cfa41f;
+
+  /* Surfaces & neutrals */
+  --color-canvas:             #f7f5fb;
+  --color-canvas-raised:      #fbfaff;
+  --color-surface:            #ffffff;
+  --color-border:             #e6dff1;
+  --color-border-strong:      #d2c8e6;
+
+  /* Text on light */
+  --color-text:               #221a33;
+  --color-text-soft:          #3d3450;
+  --color-text-muted:         #675e78;
+  --color-on-accent:          #2a2205;
+
+  /* Text & detail on dark */
+  --color-on-brand:           #ffffff;
+  --color-on-dark:            #efeaf7;
+  --color-on-dark-2:          #e7dff5;
+  --color-on-dark-heading:    #c3aef0;
+  --color-on-dark-body:       #ddd0f2;
+  --color-on-dark-muted:      #cdbcec;
+  --color-on-dark-subtle:     #ab98d4;
+  --color-border-on-dark:     rgba(255,255,255,.6);
+  --color-control-dark:       #6b5a97;
+  --color-control-dark-hover: #8674b3;
+
+  /* Footer */
+  --color-footer-text:        #b7adcc;
+  --color-footer-link:        #ddd3ee;
+
+  /* Feedback (greens stay universal) */
+  --color-success-bg:         #eef6ec;
+  --color-success-border:     #cfe6c8;
+  --color-success-text:       #1c5c2a;
+
+  /* Brand-tinted overlays & shadows */
+  --color-scrim:              rgba(30,15,58,.6);
+  --color-pill-scrim:         rgba(42,21,80,.72);
+  --color-band-scrim-top:     rgba(61,35,115,.82);
+  --color-band-scrim-bottom:  rgba(61,35,115,.9);
+  --shadow:                   0 6px 24px rgba(61,35,115,.12);
+  --shadow-accent:            0 4px 14px rgba(238,197,58,.35);
+  --shadow-modal:             0 20px 60px rgba(0,0,0,.4);
+}
