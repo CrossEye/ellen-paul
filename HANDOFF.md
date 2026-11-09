@@ -1,7 +1,17 @@
 # HANDOFF — Ellen Paul for State Rep (CT 55th) campaign site
 
 Context document for anyone (human or Claude session) picking this up cold.
-Last updated: 2026-09-16.
+Last updated: 2026-11-08.
+
+## Status (2026-11-08)
+
+**Ellen won** the 55th District seat on November 3, 2026. The live site is
+now the **post-election page**: a Thank You message to constituents and
+volunteers (drafted by Scott, approved by Ellen as a starting point she may
+rewrite), "Why I Ran", the eight issue cards, and "Meet Ellen". The
+Ellen-vs-Weir carousel, volunteer and yard-sign forms, "Pitch In" CTA, and
+intro overlay are gone from the live page. Much of the rest of this document
+describes the campaign-era site; it still applies to `docs/campaign/`.
 
 ## What this is
 
@@ -20,13 +30,20 @@ People:
 ## Layout
 
 - `docs/index.html` — **the canonical site**: long-scroll single page (Ellen's
-  stated preference). Contains the eleven-slide Ellen-vs-Weir carousel.
+  stated preference). Since 2026-11-08 this is the post-election page (see
+  Status above).
+- `docs/campaign/` — the final campaign-era page with its own copy of the
+  assets, including the eleven-slide Ellen-vs-Weir carousel and the forms.
+  Unlinked and marked `noindex`; kept for reference only. Never edit.
 - `docs/multi/` (two-page variant with a separate contrasts page) was
   **removed 2026-08-21**; keeping it in sync wasn't worth it. Revive from git
   history (commit f35a52b or earlier) if ever wanted.
-- `docs/001/` … `docs/008/` — frozen early prototype snapshots. Never edit.
-- `docs/assets/` — shared CSS (`css/main.css`), JS (`js/carousel.js`,
-  `js/forms.js`, `js/main.js`), images incl. logo SVGs and `favicon.svg`.
+- `docs/001/` … `docs/011/` (frozen prototype snapshots and review drafts)
+  were **removed 2026-11-08**; revive from git history (commit 12e52b5 or
+  earlier) if ever wanted.
+- `docs/assets/` — CSS (`css/main.css`), JS (`js/main.js`, nav only),
+  images incl. logo SVGs and `favicon.svg`. `carousel.js`, `forms.js`, and
+  the purple demo theme now live only under `docs/campaign/assets/`.
 - `content/` — source text: Ellen's `Website Content.docx`, the copy deck
   `site-content.md`, and `weir-contrast-draft.md` (the contrast menu that
   seeded the compare section).

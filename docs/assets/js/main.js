@@ -40,30 +40,6 @@
     })
   }
 
-  // Prototype intro overlay (once per browser session)
-  const initOverlay = () => {
-    const ov = document.getElementById('proto-note')
-    if (!ov) return
-    const KEY = 'ep-proto-note-dismissed'
-    const alreadySeen = () => {
-      try { return sessionStorage.getItem(KEY) === '1' }
-      catch { return false }
-    }
-    if (alreadySeen()) return
-
-    const ok = document.getElementById('proto-note-ok')
-    const dismiss = () => {
-      ov.setAttribute('hidden', '')
-      try { sessionStorage.setItem(KEY, '1') } catch {}
-    }
-    ov.removeAttribute('hidden')
-    ok?.focus()
-    ok.addEventListener('click', dismiss)
-    ov.addEventListener('click', e => { if (e.target === ov) dismiss() })
-    document.addEventListener('keydown', e => { if (e.key === 'Escape') dismiss() })
-  }
-
   initNav()
   initTabs()
-  // initOverlay()  // intro overlay off for launch; uncomment to bring it back
 })()
